@@ -1,23 +1,25 @@
-Based on the provided `eclipse.py` file, here is a GitHub README file for the module:
+Sure! Here's a decorated and detailed GitHub main page README file:
 
 ---
 
-# Eclipse
+# 🌟 Eclipse
 
-Eclipse is an open-source Python module developed by Onesmus Bett Co. for easy console manipulation and decoration. It leverages the `rich` library to provide various styled outputs, including text styling, progress bars, tables, panels, and ASCII art.
+Welcome to **Eclipse** by Onesmus Bett Co. 🌌 - An open-source Python module for effortless console manipulation and decoration, leveraging the power of the `rich` library.
 
-## Features
+![Eclipse](https://via.placeholder.com/800x200.png?text=Eclipse+Console+Styling)  <!-- Replace with an actual image URL -->
 
-- **Styled Text**: Apply styles such as bold, italic, underline, dim, blink, reverse, strikethrough, and reset.
-- **Progress Bar**: Display customizable progress bars in the console.
-- **Tables**: Create and display tables with custom styles.
-- **Panels**: Create styled panels for displaying text.
-- **Prompts**: Input prompts with optional password masking.
-- **ASCII Art**: Generate and display ASCII art with various fonts and colors.
+## 🎨 Features
 
-## Installation
+- **Styled Text**: ✨ Bold, italic, underline, dim, blink, reverse, strikethrough, and reset.
+- **Progress Bar**: ⏳ Customizable progress bars with ease.
+- **Tables**: 📊 Beautiful tables with custom styles.
+- **Panels**: 📦 Create stylish panels for displaying text.
+- **Prompts**: 🔒 Input prompts with optional password masking.
+- **ASCII Art**: 🎨 Generate and display stunning ASCII art.
 
-To install Eclipse, simply clone this repository and ensure you have the required dependencies:
+## 🛠️ Installation
+
+To get started with Eclipse, clone the repository and install the necessary dependencies:
 
 ```bash
 git clone https://github.com/ONESMUSBETT/Eclipse.git
@@ -25,9 +27,9 @@ cd Eclipse
 pip install -r requirements.txt
 ```
 
-## Usage
+## 🚀 Usage
 
-### Initialization
+### 🎬 Initialization
 
 Import the `Styled` class from the module:
 
@@ -35,9 +37,9 @@ Import the `Styled` class from the module:
 from eclipse import Styled
 ```
 
-### Functions
+### 📚 Functions
 
-#### 1. Styled.info()
+#### 1. 📜 Styled.info()
 
 Displays information about the Eclipse module and its usage.
 
@@ -45,7 +47,7 @@ Displays information about the Eclipse module and its usage.
 Styled.info()
 ```
 
-#### 2. Styled.progress()
+#### 2. 📈 Styled.progress()
 
 Displays a progress bar.
 
@@ -61,7 +63,7 @@ Displays a progress bar.
 Styled.progress(text="Loading", color="blue", font="bold")
 ```
 
-#### 3. Styled.table()
+#### 3. 🗂️ Styled.table()
 
 Creates and displays a table.
 
@@ -78,7 +80,7 @@ cols = ["Column 1", "Column 2"]
 Styled.table(title="Sample Table", rows=rows, cols=cols, color="green", font="bold")
 ```
 
-#### 4. Styled.Box()
+#### 4. 📦 Styled.Box()
 
 Creates and displays a panel (box).
 
@@ -91,7 +93,7 @@ Creates and displays a panel (box).
 Styled.Box(text="Sample Box", color="green", font="bold")
 ```
 
-#### 5. Styled.inputf()
+#### 5. 📝 Styled.inputf()
 
 Prompts for user input.
 
@@ -104,7 +106,7 @@ Prompts for user input.
 user_input = Styled.inputf(text="Enter your name:", color="white", isPassWord=False)
 ```
 
-#### 6. Styled.printf()
+#### 6. 🖨️ Styled.printf()
 
 Displays styled text in the console.
 
@@ -117,7 +119,7 @@ Displays styled text in the console.
 Styled.printf(text="Hello, World!", color="white", font="bold")
 ```
 
-#### 7. Styled.ascii()
+#### 7. 🅰️ Styled.ascii()
 
 Generates and displays ASCII art.
 
@@ -131,10 +133,25 @@ ascii_art = Styled.ascii(text="Eclipse", font="3d", color="purple")
 print(ascii_art)
 ```
 
-## License
+## 💡 Example
+
+Here's a small example showcasing some of the functionalities:
+
+```python
+from eclipse import Styled
+
+Styled.info()
+Styled.printf(text="This is a styled text!", color="blue", font="italic")
+Styled.progress(text="Loading", color="cyan", font="bold")
+Styled.Box(text="This is a box panel", color="magenta", font="bold")
+ascii_art = Styled.ascii(text="Eclipse", font="5l", color="green")
+print(ascii_art)
+```
+
+## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feel free to customize the repository link and other specific details as needed.
+Feel free to customize the repository link, image URLs, and other specific details as needed to make it even more appealing.
