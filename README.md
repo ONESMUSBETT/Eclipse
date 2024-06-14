@@ -20,7 +20,7 @@ Eclipse is an open-source Python module developed by Onesmus Bett Co. for easy c
 To install Eclipse, simply clone this repository and ensure you have the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/eclipse.git
+git clone https://github.com/ONESMUSBETT/eclipse.git
 cd eclipse
 pip install -r requirements.txt
 ```
